@@ -47,9 +47,9 @@
         <div class="col-lg-6 p-2"><img class="img-fluid" src="../images/illustrations/hello3.svg" alt="hello"/></div>
         <div class="col-lg-6">
           <div class="mt-5">
-            <p class="lead text-uppercase mb-1">Welcome</p>
-            <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">AdSwipe</h1>
-            <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100"></p>
+            <p class="lead text-uppercase mb-1">AdSwipe</p>
+            <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">UNLEASH THE ULTIMATE AD NETWORK HUB</h1>
+            <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">Welcome to AdSwipe – your ultimate destination for unlocking business growth. Our platform offers tailored solutions to propel your brand forward.</p>
             <div class="mt-3" data-aos="fade-up" data-aos-delay="200"><a class="btn btn-primary shadow-sm mt-1 hover-effect" href="/singin/">Get Start <i class="fas fa-arrow-right"></i></a></div>
           </div>
         </div>
@@ -99,72 +99,7 @@
     </div>
   </div>
 </div>
-<div class="section px-3 px-lg-4 pt-5" id="skills">
-  <div class="container-narrow">
-    <div class="text-center mb-5">
-      <h2 class="marker marker-center">Our Statistics</h2>
-    </div>
-    <div class="text-center">
-      <p class="mx-auto mb-3" style="max-width:600px">This is some of our statistics regarding the used applications, websites, and the number of displayed advertisements.</p>
-    </div>
-    <div class="bg-light p-3">
-      <div class="row">
-        <div class="col-md-5">
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">HTML5</span><span>90%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">CSS3</span><span>90%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">JavaScript</span><span>80%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">React</span><span>75%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-5 offset-md-2">
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">PHP</span><span>70%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">WordPress</span><span>70%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">MySQL</span><span>60%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">Photoshop</span><span>60%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
 
 <div class="section px-3 px-lg-4 pt-5" id="experience">
   <div class="container-narrow">
@@ -177,9 +112,9 @@
           <div class="card-header px-3 py-2">
             <div class="d-flex justify-content-between">
               <div>
-                <h3 class="h5 mb-1">UI/UX Design</h3>
-                <div class="text-muted text-small">Designerr Inc. <small>(2012-2014)</small></div>
-              </div><img src="../images/services/ui-ux.svg" width="48" height="48" alt="ui-ux"/>
+                <h3 class="h5 mb-1">24/7 Support</h3>
+                <!-- <div class="text-muted text-small">Designerr Inc. <small>(2012-2014)</small></div> -->
+              </div><img src="https://preview.wstacks.com/adstack/assets/images/frontend/feature/64f6ba14bd2271693891092.gif" width="48" height="48" alt="ui-ux"/>
             </div>
           </div>
           <div class="card-body px-3 py-2">
@@ -193,9 +128,9 @@
           <div class="card-header px-3 py-2">
             <div class="d-flex justify-content-between">
               <div>
-                <h3 class="h5 mb-1">App Development</h3>
-                <div class="text-muted text-small">MakeMyApp LLC. <small>(2015-2018)</small></div>
-              </div><img src="../images/services/app-development.svg" width="48" height="48" alt="app development"/>
+                <h3 class="h5 mb-1">Secure</h3>
+                <!-- <div class="text-muted text-small">MakeMyApp LLC. <small>(2015-2018)</small></div> -->
+              </div><img src="https://preview.wstacks.com/adstack/assets/images/frontend/feature/64d8c0534111c1691926611.gif" width="48" height="48" alt="app development"/>
             </div>
           </div>
           <div class="card-body px-3 py-2">
@@ -209,9 +144,9 @@
           <div class="card-header px-3 py-2">
             <div class="d-flex justify-content-between">
               <div>
-                <h3 class="h5 mb-1">Web Design</h3>
-                <div class="text-muted text-small">Webbie LLC. <small>(2018-2020)</small></div>
-              </div><img src="../images/services/web-design.svg" width="48" height="48" alt="web design"/>
+                <h3 class="h5 mb-1">Profitable</h3>
+                <!-- <div class="text-muted text-small">Webbie LLC. <small>(2018-2020)</small></div> -->
+              </div><img src="https://preview.wstacks.com/adstack/assets/images/frontend/feature/64d8c03443e991691926580.gif" width="48" height="48" alt="web design"/>
             </div>
           </div>
           <div class="card-body px-3 py-2">
@@ -227,7 +162,43 @@
               <div>
                 <h3 class="h5 mb-1">Full Stack Development</h3>
                 <div class="text-muted text-small">Coder Inc. <small>(2020-2021)</small></div>
-              </div><img src="../images/services/full-stack.svg" width="48" height="48" alt="full stack"/>
+              </div><img src="https://preview.wstacks.com/adstack/assets/images/frontend/feature/64d8c01bde1951691926555.gif" width="48" height="48" alt="full stack"/>
+            </div>
+          </div>
+          <div class="card-body px-3 py-2">
+            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-6">
+        <div class="card mb-3" data-aos="fade-left" data-aos-delay="400">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">Full Stack Development</h3>
+                <div class="text-muted text-small">Coder Inc. <small>(2020-2021)</small></div>
+              </div><img src="https://preview.wstacks.com/adstack/assets/images/frontend/feature/64d8bfd39bdc51691926483.gif" width="48" height="48" alt="full stack"/>
+            </div>
+          </div>
+          <div class="card-body px-3 py-2">
+            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-6">
+        <div class="card mb-3" data-aos="fade-left" data-aos-delay="400">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">Full Stack Development</h3>
+                <div class="text-muted text-small">Coder Inc. <small>(2020-2021)</small></div>
+              </div><img src="https://preview.wstacks.com/adstack/assets/images/frontend/feature/64d8bfb76f5771691926455.gif" width="48" height="48" alt="full stack"/>
             </div>
           </div>
           <div class="card-body px-3 py-2">
@@ -287,8 +258,7 @@
 <footer class="pt-4 pb-4 text-center bg-light">
   <div class="container">
     <div class="my-3">
-      <div class="h4">Walter Patterson</div>
-      <p>Web Developer & Mobile Application Developer</p>
+      <div class="h4">Our Advertising Platform in Social Media</div>
       <div class="social-nav">
         <nav role="navigation">
           <ul class="nav justify-content-center">
@@ -302,9 +272,9 @@
       </div>
     </div>
     <div class="text-small text-secondary">
-      <div class="mb-1">&copy; Super Folio. All rights reserved.</div>
+      <div class="mb-1">&copy; AdSwipe. All rights reserved.</div>
       <div>
-        <!-- Make sure to buy a license for the template before removing the line below. Buy license on https://templateflip.com/ -->Design - <a href="https://templateflip.com/" target="_blank">TemplateFlip</a></div>
+        <!-- Make sure to buy a license for the template before removing the line below. Buy license on https://templateflip.com/ --></div>
     </div>
   </div>
 </footer></div>
