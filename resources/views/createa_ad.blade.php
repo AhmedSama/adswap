@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Advertisings</title>
+    <title>Create Ad</title>
     <meta name="description" content="Ela Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -63,6 +63,15 @@
             height: 160px;
         }
 
+
+        #center-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Set the height to full viewport height */
+        }
+
+
     </style>
 </head>
 
@@ -74,6 +83,10 @@
                 <ul class="nav navbar-nav">
                     <li class="active">
                         <a href="../dashboard/"><i class="menu-icon fa fa-laptop"></i> Dashboard </a>
+                    </li>
+
+                    <li class="active">
+                        <a href="../createa_ad/"><i class="menu-icon fa fa-tasks"></i> Create Ads</a>
                     </li>
 
                     <li class="active">
@@ -109,9 +122,9 @@
                             <li><i class="menu-icon fa fa-th"></i><a href="forms-basic.html">Basic Form</a></li>
                             <li><i class="menu-icon fa fa-th"></i><a href="forms-advanced.html">Advanced Form</a></li>
                         </ul>
-                    </li>
+                    </li>-->
 
-                    <li class="menu-title">Icons</li>
+                    <li class="menu-title">Statistics</li>
 
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-tasks"></i>Icons</a>
@@ -147,7 +160,9 @@
                             <li><i class="menu-icon fa fa-sign-in"></i><a href="page-register.html">Register</a></li>
                             <li><i class="menu-icon fa fa-paper-plane"></i><a href="pages-forget.html">Forget Pass</a></li>
                         </ul>
-                    </li> -->
+                    </li>
+
+                    <!--
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>
@@ -186,72 +201,124 @@
         <!-- /#header -->
         <!-- Content -->
 
+
         <div class="content">
             <div class="animated fadeIn">
-                <div class="row">
-
-                    <div class="col-md-12">
-                        <div class="card">
-                            <div class="card-header">
-                                <strong class="card-title">My Advertising</strong>
+                 <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card text-center">
+                            <div class="card-header text-center">
+                                <strong>Details Ad</strong>
                             </div>
-                            <div class="card-body">
-                                <table id="bootstrap-data-table" class="table table-striped table-bordered">
-                                    <thead>
-                                        <tr>
-                                            <th>Name</th>
-                                            <th>Type</th>
-                                            <th>Clicks</th>
-                                            <th>Views</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>ألعاب محاكي قيادة الحافلات 3D</td>
-                                            <td>App</td>
-                                            <td>193</td>
-                                            <td>750</td>
-                                        </tr>
-                                        <tr>
-                                            <td>booking</td>
-                                            <td>Website</td>
-                                            <td>17K</td>
-                                            <td>101K</td>
-                                        </tr>
-                                        <tr>
-                                            <td>فيدوجرام</td>
-                                            <td>App</td>
-                                            <td>9K</td>
-                                            <td>70K</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Plus Messenger</td>
-                                            <td>App</td>
-                                            <td>184K</td>
-                                            <td>1M</td>
-                                        </tr>
-                                        <tr>
-                                            <td>eSound Music</td>
-                                            <td>App</td>
-                                            <td>100K</td>
-                                            <td>2M</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Brielle Williamson</td>
-                                            <td>Integration Specialist</td>
-                                            <td>New York</td>
-                                            <td>$372,000</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                            <div class="card-body card-block">
+                                <form action="#" method="post" enctype="multipart/form-data" class="form-horizontal">
+                                    <div class="row form-group">
+                                        <div class="col col-md-3"><label for="text-input" class=" form-control-label">Name</label></div>
+                                        <div class="col-12 col-md-9"><input type="text" id="text-input" name="text-input" placeholder="App Edit Photos" class="form-control"><small class="form-text text-muted">The name of your advertisings</small></div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col col-md-3"><label for="email-input" class=" form-control-label">Key Words</label></div>
+                                        <div class="col-12 col-md-9"><input type="text" id="email-input" name="email-input" placeholder="Examples: photos,editphoto,drawpicture,picture" class="form-control"><small class="help-block form-text"></small></div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col col-md-3"><label for="textarea-input" class=" form-control-label">Details</label></div>
+                                        <div class="col-12 col-md-9"><textarea name="textarea-input" id="textarea-input" rows="9" placeholder="Content..." class="form-control"></textarea></div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col col-md-3"><label for="select" class=" form-control-label">Ad type</label></div>
+                                        <div class="col-12 col-md-9">
+                                            <select name="select" id="select" class="form-control">
+                                                <option value="0">Select</option>
+                                                <option value="1">Games</option>
+                                                <option value="2">Apps</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col col-md-3"><label for="selectLg" class=" form-control-label">Select Language</label></div>
+                                        <div class="col-12 col-md-9">
+                                            <select name="selectLg" id="selectLg" class="form-control form-control">
+                                                <option value="0">English</option>
+                                                <option value="1">Arabic</option>
+                                                <option value="2">French</option>
+                                                <option value="3">Chinese</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="row form-group">
+                                        <div class="col col-md-3"><label for="selectSm" class=" form-control-label"></label></div>
+                                        <div class="col-12 col-md-9">
+                                            <select name="selectSm" id="selectSm" class="form-control-sm form-control">
+                                                <option value="0">Please select</option>
+                                                <option value="1">Option #1</option>
+                                                <option value="2">Option #2</option>
+                                                <option value="3">Option #3</option>
+                                                <option value="4">Option #4</option>
+                                                <option value="5">Option #5</option>
+                                            </select>
+                                        </div>
+                                    </div> -->
+                                    <div class="row form-group">
+                                        <div class="col col-md-3"><label for="disabledSelect" class=" form-control-label">Choose Countries</label></div>
+                                        <div class="col-12 col-md-9">
+                                            <select name="disabledSelect" id="disabledSelect" disabled="" class="form-control">
+                                                <option value="0">You neet me to subscribe</option>
+                                                <option value="1">Option #1</option>
+                                                <option value="2">Option #2</option>
+                                                <option value="3">Option #3</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row form-group">
+                                        <div class="col col-md-3"><label class=" form-control-label">ِAd Style</label></div>
+                                        <div class="col col-md-9">
+                                            <div class="form-check">
+                                                <div class="checkbox">
+                                                    <label for="checkbox1" class="form-check-label ">
+                                                        <input type="checkbox" id="checkbox1" name="checkbox1" value="option1" class="form-check-input">Banner Free
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <label for="checkbox2" class="form-check-label ">
+                                                        <input type="checkbox" id="checkbox2" name="checkbox2" value="option2" class="form-check-input">Image Pro
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <label for="checkbox3" class="form-check-label ">
+                                                        <input type="checkbox" id="checkbox3" name="checkbox3" value="option3" class="form-check-input">Video Pro
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row form-group">
+                                        <div class="col col-md-3"><label for="file-input" class=" form-control-label">Image</label></div>
+                                        <div class="col-12 col-md-9"><input type="file" id="file-input" name="file-input" class="form-control-file"></div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col col-md-3"><label for="file-multiple-input" class=" form-control-label">Video</label></div>
+                                        <div class="col-12 col-md-9"><input type="file" id="file-multiple-input" name="file-multiple-input" multiple="" class="form-control-file"></div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="card-footer">
+                                <button type="submit" class="btn btn-primary btn-sm">
+                                    <i class="fa fa-dot-circle-o"></i> Create
+                                </button>
+                                <button type="reset" class="btn btn-danger btn-sm">
+                                    <i class="fa fa-ban"></i> Reset
+                                </button>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
-            </div><!-- .animated -->
-        </div><!-- .content -->
+            </div>
+
+
+        </div><!-- .animated -->
+
 
         <!-- /.content -->
         <div class="clearfix"></div>
@@ -260,10 +327,7 @@
             <div class="footer-inner bg-white">
                 <div class="row">
                     <div class="col-sm-6">
-                        Copyright &copy; 2018 Ela Admin
-                    </div>
-                    <div class="col-sm-6 text-right">
-                        Designed by <a href="https://colorlib.com">Colorlib</a>
+                        Copyright &copy; AdSwap
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AdSwipe</title>
+    <title>AdSwap</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" media="print" onload="this.media='all'"/>
@@ -29,7 +29,7 @@
   <body id="top">
     <header class="bg-light">
       <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header-nav" role="navigation">
-        <div class="container"><a class="link-dark navbar-brand site-title mb-0" href="#">AdSwipe</a>
+        <div class="container"><a class="link-dark navbar-brand site-title mb-0" href="#">AdSwap</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto me-2">
@@ -47,9 +47,9 @@
         <div class="col-lg-6 p-2"><img class="img-fluid" src="https://preview.wstacks.com/adstack/assets/images/frontend/banner/64f73071b37991693921393.png" alt="hello"/></div>
         <div class="col-lg-6">
           <div class="mt-5">
-            <p class="lead text-uppercase mb-1">AdSwipe</p>
+            <p class="lead text-uppercase mb-1">AdSwap</p>
             <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">UNLEASH THE ULTIMATE AD NETWORK HUB</h1>
-            <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">Welcome to AdSwipe – your ultimate destination for unlocking business growth. Our platform offers tailored solutions to propel your brand forward.</p>
+            <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">Welcome to AdSwap – your ultimate destination for unlocking business growth. Our platform offers tailored solutions to propel your brand forward.</p>
             <div class="mt-3" data-aos="fade-up" data-aos-delay="200"><a class="btn btn-primary shadow-sm mt-1 hover-effect" href="/singin/">Get Start <i class="fas fa-arrow-right"></i></a></div>
           </div>
         </div>
@@ -62,7 +62,7 @@
   <div class="container-narrow">
     <div class="row">
       <div class="col-md-6">
-        <h2 class="h4 my-2">What About AdSwipe NetWorking</h2>
+        <h2 class="h4 my-2">What About AdSwap NetWorking</h2>
 
         <p>
         Ad networking refers to the infrastructure and environment enabling the exchange of advertisements between various applications and online platforms. This includes multiple stakeholders such as publishers (who provide ad space) and advertisers (who promote their products or services).

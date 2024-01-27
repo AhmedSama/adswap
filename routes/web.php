@@ -27,6 +27,12 @@ Route::get('/advertisings', function () {
     return view('advertisings');
 });
 
+Route::get('/createa_ad', function () {
+    return view('createa_ad');
+});
+
+
+
 //
 
 Route::get('/', function () {
