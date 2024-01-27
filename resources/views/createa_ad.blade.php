@@ -209,8 +209,8 @@
 
         <div class="content">
             <div class="animated fadeIn">
-                 <div class="row">
-                    <div class="col-lg-6">
+                 <div>
+                    <div>
                         <div class="card text-center">
                             <div class="card-header text-center">
                                 <strong>Details Ad</strong>
@@ -218,8 +218,8 @@
                             <div class="card-body card-block">
                                 <form action="#" method="post" enctype="multipart/form-data" class="form-horizontal">
                                     <div class="row form-group">
-                                        <div class="col col-md-3"><label for="text-input" class=" form-control-label">Name</label></div>
-                                        <div class="col-12 col-md-9"><input type="text" id="text-input" name="text-input" placeholder="App Edit Photos" class="form-control"><small class="form-text text-muted">The name of your advertisings</small></div>
+                                        <div class="col col-md-3"><label for="text-input" class=" form-control-label">Title</label></div>
+                                        <div class="col-12 col-md-9"><input type="text" id="text-input" name="text-input" placeholder="title..." class="form-control"></div>
                                     </div>
                                     <div class="row form-group">
                                         <div class="col col-md-3"><label for="email-input" class=" form-control-label">Key Words</label></div>
@@ -267,7 +267,7 @@
                                         <div class="col col-md-3"><label for="disabledSelect" class=" form-control-label">Choose Countries</label></div>
                                         <div class="col-12 col-md-9">
                                             <select name="disabledSelect" id="disabledSelect" disabled="" class="form-control">
-                                                <option value="0">You neet me to subscribe</option>
+                                                <option value="0">You need me to subscribe</option>
                                                 <option value="1">Option #1</option>
                                                 <option value="2">Option #2</option>
                                                 <option value="3">Option #3</option>
