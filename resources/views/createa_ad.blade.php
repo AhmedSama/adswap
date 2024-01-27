@@ -27,6 +27,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/weathericons@2.1.0/css/weather-icons.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/fullcalendar@3.9.0/dist/fullcalendar.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
    <style>
     #weatherWidget .currentDesc {
@@ -275,6 +276,7 @@
                                         </div>
                                     </div>
 
+                                    <!-- Here -->
                                     <div class="row form-group">
                                         <div class="col col-md-3"><label class=" form-control-label">ِAd Style</label></div>
                                         <div class="col col-md-9">
@@ -308,6 +310,31 @@
                                     </div>
                                 </form>
                             </div>
+
+
+                            <div class="row form-group">
+                            <div id="map" style="height: 400px;width:700px;"></div>
+                                    </div>
+
+
+
+<!-- Include Leaflet JavaScript -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script>
+    // Initialize the map
+    var map = L.map('map').setView([51.505, -0.09], 13);
+
+    // Add a tile layer (you can use different map providers, here we use OpenStreetMap)
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Add a marker to the map
+    L.marker([51.505, -0.09]).addTo(map)
+        .bindPopup('A sample marker!').openPopup();
+</script>
+
                             <div class="card-footer">
                                 <button type="submit" class="btn btn-primary btn-sm">
                                     <i class="fa fa-dot-circle-o"></i> Create
