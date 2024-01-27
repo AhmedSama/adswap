@@ -40,11 +40,11 @@
                     <!-- <form> -->
                         <div class="form-group">
                             <label>Email address</label>
-                            <input type="text" class="form-control" placeholder="Email">
+                            <input type="text" class="form-control" placeholder="Email" value="apps32567@gmail.com">
                         </div>
                         <div class="form-group">
                             <label>Password</label>
-                            <input type="password" class="form-control" placeholder="Password">
+                            <input type="password" class="form-control" placeholder="Password" value="123456789">
                         </div>
                         <div class="checkbox">
                             <label>
