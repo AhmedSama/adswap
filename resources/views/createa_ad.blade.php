@@ -312,7 +312,8 @@
                             </div>
 
 
-                            <div class="row form-group">
+                            <div class="card-body card-block">
+                            <label for="file-multiple-input" class=" form-control-label">Choose Ragion</label>
                             <div id="map" style="height: 400px;width:700px;"></div>
                                     </div>
 
