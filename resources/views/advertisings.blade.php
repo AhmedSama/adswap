@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AdSwipe</title>
+    <title>Advertisings</title>
     <meta name="description" content="Ela Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -73,11 +73,11 @@
             <div id="main-menu" class="main-menu collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="active">
-                        <a href="#"><i class="menu-icon fa fa-laptop"></i> Dashboard </a>
+                        <a href="../dashboard/"><i class="menu-icon fa fa-laptop"></i> Dashboard </a>
                     </li>
 
                     <li class="active">
-                        <a href="advertisings/"><i class="menu-icon fa fa-tasks"></i> Advertisings </a>
+                        <a href="../advertisings/"><i class="menu-icon fa fa-tasks"></i> Advertisings </a>
                     </li>
 
                     <!-- <li class="menu-title">UI elements</li>

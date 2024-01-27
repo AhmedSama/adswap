@@ -23,6 +23,12 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 });
 
+Route::get('/advertisings', function () {
+    return view('advertisings');
+});
+
+//
+
 Route::get('/', function () {
     return redirect('/welcome');
 });
